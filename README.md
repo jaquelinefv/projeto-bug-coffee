@@ -5,6 +5,7 @@ Site de um café coworking desenvolvido para fins acadêmicos utilizando tecnolo
 * Lucas Do Vale De Jesus - 425107460
 * Michelli Oliveira Dos Santos - 425102770
 * Vinicius Rosanti Vallone - 425102322
+* Helder Rocha de Lima - 425108037
 ## 🎯 Objetivo
 Mostrar como é o espaço do café temático para profisssionais que procuram um lugar de conforto para trabalarem e realizar reserva.
 ## 🧰 Tecnologias Utilizadas
