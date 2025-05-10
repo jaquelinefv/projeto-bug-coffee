@@ -1,62 +1,143 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Cardapio | The Bug Coffee </title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cardápio | The Bug Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .menu-section {
+      margin-bottom: 50px;
+      max-width: 800px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .menu-section h3 {
+      font-size: 1.8rem;
+      margin-bottom: 20px;
+      border-bottom: 2px solid #6d4c41;
+      padding-bottom: 5px;
+      color: #4e342e;
+    }
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      padding: 12px 0;
+      border-bottom: 1px dashed #8d6e63;
+    }
+    .menu-item .info {
+      flex: 1;
+    }
+    .menu-item .name {
+      font-weight: 600;
+      font-size: 1.1rem;
+    }
+    .menu-item .desc {
+      font-size: 0.95rem;
+      color: #555;
+    }
+    .menu-item .price {
+      font-weight: bold;
+      margin-left: 20px;
+      white-space: nowrap;
+      color: #6d4c41;
+    }
+  </style>
 </head>
 <body>
-    <!--seção do titulo principal do cardapio-->
-    <section>
-       <h1>Cardápio</h1>
+
+  <!-- Cabeçalho fixo -->
+  <header>
+    <h1>The Bug Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="Coworking.html">Coworking</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="Decubra.html">Descubra</a></li>
+        <li><a href="Fale-Conosco.html">Fale Conosco</a></li>
+        <li><a href="Trabalhe-conosco.html">Trabalhe Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="titulo" class="menu-section">
+      <h2>Nosso Cardápio:</h2>
     </section>
-    <!--bebidas quentes e frias-->
-    <section>
-        <h2>Bebidas:</h2>
-        <ol>
-            <li>Café expresso</li>
-            <li>Café gelado</li>
-            <li>Macchiato</li>
-            <li>Chai latte</li>
-            <li>Chai Latte</li>
-            <li>Latte macchiato</li>
-            <li>Cappuccino</li>
-        </ol>
+
+    <section class="menu-section">
+      <h3>Bebidas Quentes e Frias</h3>
+      <div class="menu-item">
+        <div class="info">
+          <div class="name">Café Expresso</div>
+          <div class="desc">Tradicional e intenso</div>
+        </div>
+        <div class="price">R$ 5,00</div>
+      </div>
+      <div class="menu-item">
+        <div class="info">
+          <div class="name">Café Gelado</div>
+          <div class="desc">Refrescante com gelo</div>
+        </div>
+        <div class="price">R$ 6,50</div>
+      </div>
+      <div class="menu-item">
+        <div class="info">
+          <div class="name">Macchiato</div>
+          <div class="desc">Expresso com espuma de leite</div>
+        </div>
+        <div class="price">R$ 7,00</div>
+      </div>
     </section>
-    <!--seção de salgados-->
-    <section>
-        <h2>Salgados:</h2>
-        <ol start="8">
-            <li>Pão de queijo</li>
-            <li>Croinssant</li>
-            <li>Donuts</li>
-            <li>Torta salgada</li>
-        </ol>
-     </section>
-     <!--seção de doces-->
-    <section>
-     <h2>Doces:</h2>
-     <ol start="12">
-        <li>Torta holandesa</li>
-        <li>Quindin</li>
-        <li>Brigadeiro</li>
-        <li>Beijinho</li>
-        <li>Bolo de Brigadeiro</li>
-     </ol>
+
+    <section class="menu-section">
+      <h3>Salgados</h3>
+      <div class="menu-item">
+        <div class="info">
+          <div class="name">Pão de Queijo</div>
+          <div class="desc">Tradicional mineiro</div>
+        </div>
+        <div class="price">R$ 4,00</div>
+      </div>
+      <div class="menu-item">
+        <div class="info">
+          <div class="name">Croissant</div>
+          <div class="desc">Folhado leve e amanteigado</div>
+        </div>
+        <div class="price">R$ 6,00</div>
+      </div>
     </section>
-     <!--seção de bebidas não alcoólicas-->
-    <section>
-        <h2>Bebidas Diversas:</h2>
-        <ol start="17">
-            <li>Coca cola</li>
-            <li>Coca cola zero</li>
-            <li>Água</li>
-            <li>Água com gás</li>
-            <li>Suco dell vale</li>
-        </ol>
+
+    <section class="menu-section">
+      <h3>Doces</h3>
+      <div class="menu-item">
+        <div class="info">
+          <div class="name">Brigadeiro</div>
+          <div class="desc">Clássico brasileiro</div>
+        </div>
+        <div class="price">R$ 2,50</div>
+      </div>
+      <div class="menu-item">
+        <div class="info">
+          <div class="name">Torta Holandesa</div>
+          <div class="desc">Cobertura de chocolate e biscoito</div>
+        </div>
+        <div class="price">R$ 8,00</div>
+      </div>
     </section>
-    <H2>The Bug Coffee</H2>
-        <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
-        <p>http://thebugcoffee</p>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <h2>The Bug Coffee</h2>
+    <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
+    <p>http://thebugcoffee</p>
+  </footer>
+
 </body>
 </html>

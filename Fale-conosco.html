@@ -1,43 +1,95 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Fale Conosco </title>
-    <head>
-        <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
-      </head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fale Conosco | The Bug Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    form {
+      max-width: 600px;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+    }
+    label {
+      font-weight: 600;
+      color: #4e342e;
+    }
+    input, textarea {
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-family: inherit;
+    }
+    button {
+      background-color: #6d4c41;
+      color: white;
+      border: none;
+      padding: 12px;
+      font-weight: bold;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+    button:hover {
+      background-color: #8d6e63;
+    }
+    h2 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+  </style>
 </head>
 <body>
-    <h1> PRECISA DE AJUDA? </h1>
-        <section>
-            <h2><i class="fas fa-envelope"></i> Fale conosco:</h2>
-        
-            <form>
-            <label for="nome"><i class="fas fa-user"></i> Nome:</label><br>
-            <input type="text" id="nome" name="nome"><br><br>
-        
-            <label for="email"><i class="fas fa-envelope"></i> Email:</label><br>
-            <input type="email" id="email" name="email"><br><br>
-        
-            <label for="telefone"><i class="fas fa-phone"></i> Telefone:</label><br>
-            <input type="tel" id="telefone" name="telefone"><br><br>
-        
-            <label for="assunto"><i class="fas fa-comment-dots"></i> Assunto:</label><br>
-            <input type="text" id="assunto" name="assunto"><br><br>
-        
-            <label for="mensagem"><i class="fas fa-edit"></i> Sua mensagem:</label><br>
-            <textarea id="mensagem" name="mensagem" rows="5"></textarea><br><br>
-        
-            <button type="submit"><i class="fas fa-paper-plane"></i> Enviar</button>
-            </form>
-        
-            <p><i class="fas fa-mug-hot"></i> The bug coffee</p>
-        </section>
-      <footer>
-        <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
-        <p>http://thebugcoffee</p>
-      </footer>
-    
+
+  <!-- Cabeçalho fixo -->
+  <header>
+    <h1>The Bug Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="Coworking.html">Coworking</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="Descubra.html">Descubra</a></li>
+        <li><a href="Fale-Conosco.html">Fale Conosco</a></li>
+        <li><a href="Trabalhe-conosco.html">Trabalhe Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h2>Precisa de Ajuda?</h2>
+    <form>
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" />
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" />
+
+      <label for="mensagem">Sua Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <h2>The Bug Coffee</h2>
+    <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
+    <p>http://thebugcoffee</p>
+  </footer>
+
 </body>
 </html>

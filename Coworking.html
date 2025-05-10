@@ -1,61 +1,77 @@
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coworking</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Coworking | The Bug Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <section id="coworking">
-       <h1>coworking:</h1>
-        <p>
-         Na The Bug Coffee, além do nosso cardápio repleto de opções, contamos com 8 salas disponíveis para a prática de coworking,
-          que podem ser alugadas diretamente no nosso site. Os espaços são pensados para oferecer conforto, praticidade e estrutura completa
-          para reuniões, apresentações e eventos diversos.
-        </p>
-      
-        <h2>contamos com:</h2>
-      
-        <!-- SALAS BÁSICAS -->
-            <h3>4 salas Básicas:</h3>
-            <p>
-              Oferecemos salas em modelo "home office", indicadas para reuniões, projetos, apresentações e até mesmo oficinas.
-              Comportam até 12 pessoas e oferecem um ambiente aconchegante e funcional para o dia a dia profissional.
-            </p>
-          </div>
-          <img src="imagens/sala simples de coworking.jpg" alt="Sala Básica" style="width: 250px; border-radius: 10px;">
-        </div>
-      
-        <!-- SALAS PREMIUM -->
-            <h3>4 salas Premium:</h3>
-            <p>
-              Modelo auditório, indicada para palestras, workshops, apresentações de produtos e serviços, rodas de conversa, aulas e muito mais.
-              Espaço moderno com capacidade para até 17 pessoas, ideal para grandes encontros e eventos profissionais.
-            </p>
-          </div>
-          <img src="imagens/sala coworking premium.jpg" alt="Sala Premium" style="width: 250px; border-radius: 10px;">
-        </div>
-      
-        <!-- COMODIDADES -->
-        <h3>todas as nossas salas contam com:</h3>
-        <ul>
-          <li>Ar-condicionado com regulagem pelo usuário;</li>
-          <li>TV de 49 polegadas;</li>
-          <li>Tomadas 110V de piso e parede;</li>
-          <li>Internet Wi-Fi (100mb compartilhados);</li>
-          <li>Quadro de vidro com canetas piloto;</li>
-          <li>Pranchetas;</li>
-          <li>Blocos de anotações;</li>
-          <li>Canetas, réguas e lápis disponíveis.</li>
-        </ul>
-      </section>
-            <!--Rodapé-->
-      <footer>
-        <h2>The Bug Coffee</h2>
-        <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
-        <p>http://thebugcoffee</p>
-      </footer>
-    
-    </section>    
+
+  <!-- Cabeçalho fixo -->
+  <header>
+    <h1>The Bug Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="Coworking.html">Coworking</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="Decubra.html">Descubra</a></li>
+        <li><a href="Fale-Conosco.html">Fale Conosco</a></li>
+        <li><a href="Trabalhe-conosco.html">Trabalhe Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="introducao">
+      <h2>Espaço de Coworking</h2>
+      <p>
+        Na The Bug Coffee, além de um cardápio variado, você encontra 8 salas disponíveis para coworking,
+        pensadas para conforto, produtividade e praticidade. Faça sua reserva diretamente pelo site!
+      </p>
+    </section>
+
+    <!-- Salas Básicas -->
+    <section class="card-container">
+      <div class="card">
+        <h3>4 Salas Básicas</h3>
+        <p>Salas no estilo "home office", ideais para reuniões, oficinas e pequenos eventos. Até 12 pessoas.</p>
+        <img src="imagens/sala simples de coworking.jpg" alt="Sala básica" style="width:100%; border-radius: 10px; margin-top: 10px;">
+      </div>
+
+      <!-- Salas Premium -->
+      <div class="card">
+        <h3>4 Salas Premium</h3>
+        <p>Modelo auditório para workshops, aulas e apresentações maiores. Capacidade para até 17 pessoas.</p>
+        <img src="imagens/sala coworking premium.jpg" alt="Sala premium" style="width:100%; border-radius: 10px; margin-top: 10px;">
+      </div>
+    </section>
+
+    <!-- Comodidades -->
+    <section id="comodidades">
+      <h3>O que todas as salas oferecem:</h3>
+      <ul>
+        <li>Ar-condicionado com controle individual</li>
+        <li>TV de 49”</li>
+        <li>Tomadas 110V de piso e parede</li>
+        <li>Internet Wi-Fi (100mb)</li>
+        <li>Quadro de vidro com canetas</li>
+        <li>Pranchetas e blocos de anotações</li>
+        <li>Canetas, réguas e lápis</li>
+      </ul>
+    </section>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <h2>The Bug Coffee</h2>
+    <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
+    <p>http://thebugcoffee</p>
+  </footer>
+
 </body>
 </html>

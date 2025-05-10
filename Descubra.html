@@ -1,0 +1,104 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Descubra | The Bug Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <style>
+    .descubra-card {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      margin-bottom: 40px;
+      gap: 20px;
+    }
+    .descubra-card img {
+      width: 320px;
+      max-width: 100%;
+      border-radius: 10px;
+    }
+    .descubra-card .text {
+      flex: 1;
+      min-width: 260px;
+    }
+    .descubra-card h3 {
+      color: #4e342e;
+      font-size: 1.4rem;
+      margin-bottom: 10px;
+    }
+
+    @media screen and (max-width: 768px) {
+      .descubra-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+      .descubra-card img {
+        width: 90%;
+        max-width: 380px;
+        margin: 0 auto 10px;
+      }
+      .descubra-card .text {
+        padding: 0 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>The Bug Coffee</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="sobre.html">Sobre Nós</a></li>
+        <li><a href="Coworking.html">Coworking</a></li>
+        <li><a href="cardapio.html">Cardápio</a></li>
+        <li><a href="Descubra.html">Descubra</a></li>
+        <li><a href="Fale-Conosco.html">Fale Conosco</a></li>
+        <li><a href="Trabalhe-conosco.html">Trabalhe Conosco</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <section id="descubra">
+      <h2 style="text-align: center; margin-bottom: 40px;">Descubra a The Bug Coffee:</h2>
+
+      <div class="descubra-card">
+        <div class="text">
+          <h3>Cafés diferenciados:</h3>
+          <p>Por aqui você pode provar os clássicos, mas também será surpreendido com novidades, pois a gente adora café!</p>
+        </div>
+        <img src="imagens/Cafes especiais.png" alt="Café especial" />
+      </div>
+
+      <div class="descubra-card">
+        <img src="imagens/Ambiente aconchegante.png" alt="Ambiente com notebook" />
+        <div class="text">
+          <h3>Ambientes estimulantes:</h3>
+          <p>Temos um espaço aconchegante com Wi-Fi para suas reuniões ou momentos de concentração, além de um cardápio delicioso.</p>
+        </div>
+      </div>
+
+      <div class="descubra-card">
+        <div class="text">
+          <h3>Café, conexões e realizações:</h3>
+          <p>Seja para petiscar ou tomar um café da manhã completo, aqui você não passa vontade. Um lugar para realizar e se conectar.</p>
+        </div>
+        <img src="imagens/cafe conexoes.png" alt="Café e conexões" />
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <h2>The Bug Coffee</h2>
+    <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
+    <p>http://thebugcoffee</p>
+  </footer>
+
+</body>
+</html>
