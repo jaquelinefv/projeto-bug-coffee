@@ -5,11 +5,12 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>The Bug Coffee</title>
-  <link rel="stylesheet" href="style_landing page.css">
+  <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+</head>
 <body>
 
-  <!-- Cabeçalho fixo -->
+  <!-- Cabeçalho com botão de tema -->
   <header>
     <h1>The Bug Coffee</h1>
     <nav>
@@ -28,51 +29,57 @@
   <main class="container">
     <section id="intro">
       <h2>O melhor café de São Paulo</h2>
-      <p>
-        A The Bug Coffee é um espaço dinâmico e acolhedor para trabalho remoto e encontros profissionais.
-        Localizado no bairro da Lapa, nosso café coworking oferece um ambiente tranquilo e criativo.
-      </p>
+      <p class="intro-text">A The Bug Coffee é um espaço dinâmico e acolhedor para trabalho remoto e encontros profissionais em São Paulo (SP).
+        Localizado no bairro da Lapa, o café coworking oferece um ambiente tranquilo e aconchegante,
+        perfeito para colaboradores concentrarem-se e criarem conexões significativas.</p>
     </section>
 
     <section id="image">
-      <img src="imagens/duas xicaras de cafes.jpg" alt="Duas xícaras de café quente" style="width: 100%; border-radius: 12px;">
+      <img src="imagens/duas xicaras de cafes.jpg" alt="Duas xícaras de café quente no the Bug Coffee" width="75%">
     </section>
 
     <section id="highlights">
       <h3>O que temos de melhor:</h3>
       <div class="card-container">
         <div class="card">
-          <img src="imagens/Ambiente aconchegante.png" alt="Ambiente aconchegante">
+          <img src="imagens/Ambiente aconchegante.png" alt="Ambiente aconchegante" width="200">
           <p>Ambiente aconchegante e tranquilo</p>
         </div>
         <div class="card">
-          <img src="imagens/Cafes especiais.png" alt="Cafés especiais">
+          <img src="imagens/Cafes especiais.png" alt="Cafés especiais" width="200">
           <p>Cafés diferenciados</p>
         </div>
         <div class="card">
-          <img src="imagens/cardapio.png" alt="Cardápio">
+          <img src="imagens/cardapio.png" alt="cardapio" width="200">
           <p>Um cardápio repleto de opções</p>
         </div>
       </div>
     </section>
 
-    <section id="cardapio">
-      <h3>Nosso cardápio conta com:</h3>
-      <ul>
-        <li>Uma grande variedade de cafés</li>
-        <li>Os melhores salgados de São Paulo</li>
-        <li>Deliciosos doces artesanais</li>
-      </ul>
-      <a href="cardapio.html">Ver Cardápio</a>
+    <section id="cardápio">
+      <table>
+        <tr>
+          <td>
+            <h4>Nosso cardápio conta com:</h4>
+            <ul>
+              <li>Uma grande variedade de cafés</li>
+              <li>Os melhores salgados de São Paulo</li>
+              <li>Os melhores doces de São Paulo</li>
+            </ul>
+            <a href="cardapio.html">Nosso Cardápio</a>
+          </td>
+          <td>
+            <img src="imagens/Xicara de café.png" alt="Xícara com café" width="200">
+          </td>
+        </tr>
+      </table>
     </section>
 
-    <section id="coworking">
-      <h3>Café, conexões e realizações</h3>
-      <p>
-        Seja para petiscar ou trabalhar, aqui você encontra um ambiente ideal para produtividade.
-        Conheça nossas salas de coworking confortáveis e bem equipadas.
-      </p>
-      <a href="Coworking.html">Saiba Mais</a>
+    <section id="Conexões Realizadas--">
+      <h2>Café conexões e Realizações</h2>
+      <p>Seja para petiscar ou tomar café, aqui você não passa vontade, além de contar com um cardápio repleto de opções.
+        Na The Bug Coffee nós também contamos com salas para a realização de coworking, reuniões entre outras atividades.</p>
+      <a href="Coworking.html">Saiba mais</a>
     </section>
   </main>
 
@@ -82,5 +89,6 @@
     <p>http://thebugcoffee</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>

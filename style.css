@@ -11,7 +11,7 @@ body {
   background-color: #e0c097;
   color: #333;
   line-height: 1.6;
-  padding-top: 100px; /* espaço para o cabeçalho fixo */
+  padding-top: 100px;
 }
 
 /* Cabeçalho fixo */
@@ -48,7 +48,6 @@ nav ul li a {
 nav ul li a:hover {
   text-decoration: underline;
 }
-
 /* Estrutura principal */
 .container {
   max-width: 1200px;
@@ -56,13 +55,6 @@ nav ul li a:hover {
   padding: 30px 20px;
 }
 
-/* Imagem destaque */
-#image img {
-  width: 100%;
-  border-radius: 12px;
-}
-
-/* Destaques com cards */
 .card-container {
   display: flex;
   flex-wrap: wrap;
@@ -87,7 +79,6 @@ nav ul li a:hover {
   margin-bottom: 10px;
 }
 
-/* Botões */
 a {
   display: inline-block;
   margin-top: 15px;
@@ -103,7 +94,6 @@ a:hover {
   background-color: #8d6e63;
 }
 
-/* Rodapé */
 footer {
   background-color: #3e2723;
   color: #fff;
