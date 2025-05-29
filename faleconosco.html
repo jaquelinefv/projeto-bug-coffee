@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fale Conosco | The Bug Coffee</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" tyoe="text/css" href="style/stylesite.css">
+
+</head>
+<body>
+
+  <!-- Cabeçalho fixo -->
+   <header> <!---Menu de navegação fixo-->
+    <div class="navegar" id="topo">
+      <a href="index.html">
+        <img src="img/logos/Logotbcpng.png"Logo da empresa" class="logofoto">
+        <h2 class="logo">The Bug Coffee</h2>
+      </a> <!--Logo nome-->
+      <nav> <!--Menu de páginas-->
+        <a href="index.html">HOME</a>
+        <a href="sobre.html">SOBRE NÓS</a>
+        <a href="coworking.html">COWORKING</a>
+        <a href="cardapio.html">CARDÁPIO</a>
+        <a href="descubra.html">DESCUBRA</a>
+        <a href="faleconosco.html">FALE CONOSCO</a>
+        <a href="facaparte.html">FAÇA PARTE</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <h2>Precisa de Ajuda?</h2>
+    <form id="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" />
+
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" />
+
+      <label for="mensagem">Sua Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
+  </main>
+
+  <!-- Rodapé -->
+  <footer>
+    <h2>The Bug Coffee</h2>
+    <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
+  </footer>
+
+  <!-- Link para script.js -->
+  <script src="script.js"></script>
+
+</body>
+</html>

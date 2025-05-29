@@ -5,67 +5,65 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sobre Nós | The Bug Coffee</title>
-  <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" tyoe="text/css" href="style/stylesite.css">
+
 </head>
 <body>
-
-  <!-- Cabeçalho fixo -->
-  <header>
-    <h1>The Bug Coffee</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="sobre.html">Sobre Nós</a></li>
-        <li><a href="Coworking.html">Coworking</a></li>
-        <li><a href="cardapio.html">Cardápio</a></li>
-        <li><a href="Descubra.html">Descubra</a></li>
-        <li><a href="Fale-Conosco.html">Fale Conosco</a></li>
-        <li><a href="Trabalhe-conosco.html">Trabalhe Conosco</a></li>
-      </ul>
-    </nav>
+  <header> <!---Menu de navegação fixo-->
+    <div class="navegar" id="topo">
+      <a href="index.html">
+        <img src="img/logos/Logotbcpng.png"Logo da empresa" class="logofoto">
+        <h2 class="logo">The Bug Coffee</h2>
+      </a> <!--Logo nome-->
+      <nav> <!--Menu de páginas-->
+        <a href="index.html">HOME</a>
+        <a href="sobre.html">SOBRE NÓS</a>
+        <a href="coworking.html">COWORKING</a>
+        <a href="cardapio.html">CARDÁPIO</a>
+        <a href="descubra.html">DESCUBRA</a>
+        <a href="faleconosco.html">FALE CONOSCO</a>
+        <a href="facaparte.html">FAÇA PARTE</a>
+      </nav>
+    </div>
   </header>
 
-  <main class="container">
-    <!-- Seção principal -->
-    <section id="sobre">
-      <h2>Quem somos?</h2>
-      <p>
-        A <strong>The Bug Coffee</strong> é um café coworking localizado em São Paulo, fundado em 2010 com o propósito de oferecer muito mais do que cafés especiais.
-        Somos um espaço criado para acolher, conectar e inspirar.
-        <br><br>
-        Em um mundo cada vez mais conectado e dinâmico, entendemos a importância de um ambiente tranquilo e bem estruturado para quem trabalha remotamente, empreende ou estuda.
-        Nosso espaço foi cuidadosamente planejado para unir conforto, funcionalidade e estilo.
-      </p>
-    </section>
-
-    <!-- Imagem do espaço -->
-    <section id="imagem-espaco">
-      <img src="imagens/espaço the bug coffee.png" alt="Espaço da The Bug Coffee" style="width: 100%; border-radius: 12px; margin: 30px 0;">
-    </section>
-
-    <!-- Seção complementar -->
-    <section id="experiencia">
-      <p>
-        Priorizando a qualidade e o conforto dos nossos clientes, oferecemos uma experiência de café única e tranquila.
-        <br><br>
-        Na The Bug Coffee, você encontrará uma seleção variada de sanduíches, salgados, bolos e sobremesas artesanais, todos preparados com cuidado.
-        <br><br>
-        Nossos grãos são selecionados de produtores locais e preparados por baristas apaixonados, garantindo uma bebida memorável a cada xícara.
-      </p>
-    </section>
-
-    <!-- Imagem do barista -->
-    <section id="barista">
-      <img src="imagens/barista servindo cafe.jpg" alt="Barista preparando café" style="width: 100%; border-radius: 12px; margin-top: 30px;">
+<!-- Seção principal -->
+  <main>
+    <section id="sobre" class="sobre">
+      <div class="quem">
+        <h1>Quem somos?</h1>
+        <p>
+          A <strong>The Bug Coffee</strong> é um café coworking localizado em São Paulo, fundado em 2010 com o propósito de oferecer muito mais do que cafés especiais.
+          Somos um espaço criado para acolher, conectar e inspirar.
+          <br><br>
+          Em um mundo cada vez mais conectado e dinâmico, entendemos a importância de um ambiente tranquilo e bem estruturado para quem trabalha remotamente, empreende ou estuda.
+          Nosso espaço foi cuidadosamente planejado para unir conforto, funcionalidade e estilo.
+        </p>
+        </div>
     </section>
   </main>
 
+  <!-- Seção complementar -->
+  <section id="experiencia" class="quem">
+    <p style="color: #3f2c28">
+      Priorizando a qualidade e o conforto dos nossos clientes, oferecemos uma experiência de café única e tranquila.
+      <br><br>
+      Na The Bug Coffee, você encontrará uma seleção variada de sanduíches, salgados, bolos e sobremesas artesanais, todos preparados com cuidado.
+      <br><br>
+      Nossos grãos são selecionados de produtores locais e preparados por baristas apaixonados, garantindo uma bebida memorável a cada xícara.
+    </p>
+  </section>
+
+  <!-- Imagem do barista -->
+  <section id="barista">
+    <img src="img/baristaserve.jpg" alt="Barista preparando café" style="width: 100%;">
+  </section>
+
   <!-- Rodapé -->
-  <footer>
+ <footer>
     <h2>The Bug Coffee</h2>
     <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
-    <p>http://thebugcoffee</p>
   </footer>
 
 </body>

@@ -1,0 +1,143 @@
+/*Descubra*/
+.descubra h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+.descubra-card {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 40px;
+    gap: 20px;
+}
+.descubra-card img {
+    width: 320px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+.text {
+    flex: 1;
+    min-width: 260px;
+}
+.text h3 {
+    color: #4e342e;
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .descubra-card {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    }
+    .descubra-card img {
+    width: 90%;
+    max-width: 380px;
+    margin: 0 auto 10px;
+    }
+    .descubra-card .text {
+    padding: 0 10px;
+    }
+}
+
+
+/*Cardápio*/
+.menu-section {
+    margin-bottom: 50px;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.menu-section h3 {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #6d4c41;
+    padding-bottom: 5px;
+    color: #4e342e;
+}
+.menu-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 12px 0;
+    border-bottom: 1px dashed #8d6e63;
+}
+.menu-item .info {
+    flex: 1;
+}
+.menu-item .name {
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.menu-item .desc {
+    font-size: 0.95rem;
+    color: #555;
+}
+.menu-item .price {
+    font-weight: bold;
+    margin-left: 20px;
+    white-space: nowrap;
+    color: #6d4c41;
+}
+
+
+/*Fale conosco*/
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+label {
+    font-weight: 600;
+    color: #4e342e;
+}
+input, textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: inherit;
+}
+button {
+    background-color: #6d4c41;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+button:hover {
+    background-color: #8d6e63;
+}
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+
+/*Trabalhe Conosco*/
+ .section-info {
+    max-width: 700px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 30px 20px;
+}
+.section-info h2 {
+    margin-bottom: 20px;
+    color: #4e342e;
+}
+.section-info p {
+    margin-bottom: 20px;
+    font-size: 1.1rem;
+}
+.section-info a {
+    display: inline-block;
+    margin-top: 10px;
+    font-weight: bold;
+    color: #6d4c41;
+    text-decoration: none;
+}
