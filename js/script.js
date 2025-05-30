@@ -26,6 +26,8 @@ if (toggleBtn && navList) {
   });
 }
 
+
+// Função para carregar 
 function carregarCardapio() {
   fetch('http://localhost:3000/cardapio')
   .then(response => {

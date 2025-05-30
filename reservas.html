@@ -4,12 +4,14 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Cardápio | The Bug Coffee</title>
+  <title>Fale Conosco | The Bug Coffee</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" tyoe="text/css" href="style/stylesite.css">
-</head>
 
+</head>
 <body>
+
+  <!-- Cabeçalho fixo -->
    <header> <!---Menu de navegação fixo-->
     <div class="navegar" id="topo">
       <a href="index.html">
@@ -25,33 +27,31 @@
         <a href="reservas.html">RESERVAS</a>
         <a href="facaparte.html">FAÇA PARTE</a>
         <a href="equipe.html"> NOSSO TIME</a>
+        
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <section class="menu-section">
-      <h2>Nosso Cardápio:</h2>
-    </section>
+    <h2>Precisa de Ajuda?</h2>
+    <form id="form-contato">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" required />
 
-    <section class="menu-section">
-      <h3>Bebidas Quentes e Frias</h3>
-      <div class="menu-item" id="cardapio">
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
 
-      </div>
-      
-       
-    </section>
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" />
 
-    <section class="menu-section">
-      <h3>Salgados</h3>
-      
-    </section>
+      <label for="assunto">Assunto:</label>
+      <input type="text" id="assunto" name="assunto" />
 
-    <section class="menu-section">
-      <h3>Doces</h3>
-    
-    </section>
+      <label for="mensagem">Sua Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+    </form>
   </main>
 
   <!-- Rodapé -->
@@ -60,11 +60,8 @@
     <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
   </footer>
 
-  <script src="js/script.js"></script>
-  <script>
-    carregarCardapio();
-  </script>
-
+  <!-- Link para script.js -->
+  <script src="script.js"></script>
 
 </body>
 </html>
