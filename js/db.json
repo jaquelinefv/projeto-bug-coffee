@@ -1,0 +1,25 @@
+{
+  "cardapio": [
+    {
+      "id": 1,
+      "nome": "Café Expresso",
+      "descricao": "Café forte e encorpado.",
+      "preco": 5.00,
+      "categoria": "Bebida"
+    },
+    {
+      "id": 2,
+      "nome": "Capuccino",
+      "descricao": "Café com leite e espuma.",
+      "preco": 7.50,
+      "categoria": "Bebida"
+    },
+    {
+      "id": 3,
+      "nome": "Pão de Queijo",
+      "descricao": "Tradicional pão de queijo mineiro.",
+      "preco": 4.00,
+      "categoria": "Comida"
+    }
+  ]
+}

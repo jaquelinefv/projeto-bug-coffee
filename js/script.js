@@ -25,3 +25,37 @@ if (toggleBtn && navList) {
     navList.classList.toggle("active");
   });
 }
+
+function carregarCardapio() {
+  fetch('http://localhost:3000/cardapio')
+  .then(response => {
+      if (!response.ok) {
+          throw new Error('Erro ao carregar o cardápio');
+      }
+      return response.json();
+  })
+  .then(data => {
+      const container = document.getElementById('cardapio');
+      container.innerHTML = ''; // Limpa antes
+
+      data.forEach(item => {
+          const itemDiv = document.createElement('div');
+          itemDiv.className = 'item';
+
+          itemDiv.innerHTML = `
+              <h2>${item.nome}</h2>
+              <p>${item.descricao}</p>
+              <p class="preco">R$ ${item.preco.toFixed(2)}</p>
+              <p><em>${item.categoria}</em></p>
+          `;
+
+          container.appendChild(itemDiv);
+      });
+  })
+  .catch(error => {
+      console.error('Erro:', error);
+      document.getElementById('cardapio').innerHTML = '<p>Erro ao carregar o cardápio.</p>';
+  });
+}
+
+ window.onload = carregarCardapio;
