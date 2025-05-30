@@ -5,8 +5,7 @@ Site de um café coworking desenvolvido para fins acadêmicos utilizando tecnolo
 
 ## 🥇 Integrantes da Equipe
 * Jaqueline Vieira de Freitas - 425101645  
-* Lucas Do Vale De Jesus - 425107460  
-* Michelli Oliveira Dos Santos - 425102770  
+* Lucas Do Vale De Jesus - 425107460   
 * Vinicius Rosanti Vallone - 425102322  
 * Helder Rocha de Lima - 425108037  
 
