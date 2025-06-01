@@ -25,20 +25,45 @@
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 768px) {
-    .descubra-card {
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    }
-    .descubra-card img {
-    width: 90%;
-    max-width: 380px;
-    margin: 0 auto 10px;
-    }
-    .descubra-card .text {
-    padding: 0 10px;
-    }
+@media screen and (max-width: 768px) 
+
+{.bloco-card {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+  margin: 60px auto;
+  padding: 0 20px;
+  max-width: 1300px;
+}
+
+.card-texto {
+  background-color: #4e342e;
+  color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  flex: 1 1 600px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+}
+
+.card-texto h3 {
+  font-size: 1.5em;
+  margin-top: 0;
+}
+
+.card-texto p {
+  margin-top: 15px;
+  line-height: 1.6;
+}
+
+.card-imagem img {
+  max-width: 400px;
+  width: 100%;
+  border-radius: 12px;
+  object-fit: cover;
+}
 }
 
 

@@ -28,8 +28,9 @@ Mostrar como é o espaço do café temático para profissionais que procuram um 
 ├── coworking.html          # Página sobre os espaços de coworking
 ├── cardapio.html           # Menu de produtos
 ├── descubra.html           # Página de destaques
-├── faleconosco.html        # Formulário de contato
+├── reservas.html           # Reservas & horarios
 ├── trabalheconosco.html    # Informações de recrutamento
+├── equipe.html             # Equipe do projeto
 ├── style.css               # Estilos principais
 └── /assets
     ├── /img                # Imagens do projeto
@@ -53,10 +54,13 @@ Exibição dos itens oferecidos (cafés, lanches, etc.), com imagens e descriç�
 ### 🔍 Descubra
 Sessão com destaques sobre o espaço e diferenciais.
 
-### ✉️ Fale Conosco
-Formulário funcional com campos de nome, e-mail, telefone, assunto e mensagem + ícones decorativos.
+### ⏰ Reservas & Horarios
+Faça sua reserva e horarios de funcionamentos.
 
-### 👨‍🍳 Trabalhe Conosco
+### ✉️ Trabalhe Conosco
 Informações para envio de currículo e contato via e-mail ou telefone.
+
+### 👨‍🍳👨‍🍳👨‍🍳👨‍🍳 Equipe do projeto
+ Conhecendo nossa equipe.
 
 ## 🎲 Estrutura de Dados

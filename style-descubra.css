@@ -1,0 +1,10 @@
+.descubra-banner {
+  background-image: url('img/banner-fundodescubra.png'); /* caminho correto */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 720px;         /* aumente aqui para mostrar mais do texto */
+  width: 95%;
+  margin: 40px auto;
+  border-radius: 20px;
+}

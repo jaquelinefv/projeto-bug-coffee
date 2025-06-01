@@ -7,7 +7,7 @@
   <title>Coworking | The Bug Coffee</title>
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="stylesheet" tyoe="text/css" href="style/stylesite.css">
-
+  <link rel="stylesheet" tyoe="text/css" href="stylecoworking.css">
   <link rel="icon" type="imagem/png" href="img/logos/bugs.png"/>
 
 </head>
@@ -15,7 +15,7 @@
    <header> <!---Menu de navegação fixo-->
     <div class="navegar" id="topo">
       <a href="index.html">
-        <img src="img/logos/Logotbcpng.png"Logo da empresa" class="logofoto">
+        <img src="img/logos/Logotbcpng.png" alt="Logo da empresa" class="logofoto">
         <h2 class="logo">The Bug Coffee</h2>
       </a> <!--Logo nome-->
       <nav> <!--Menu de páginas-->
@@ -32,12 +32,16 @@
   </header>
 
   <main class="container">
-    <section id="introducao">
-      <h2>Espaço de Coworking</h2>
-      <p>
-        Na The Bug Coffee, além de um cardápio variado, você encontra 8 salas disponíveis para coworking,
-        pensadas para conforto, produtividade e praticidade. Faça sua reserva diretamente pelo site!
-      </p>
+    <section class="coworking-banner">
+      <div class="coworking-texto">
+        <h1>Espaço Coworking com Sabor e Conexão</h1><br>
+        <p>
+          Na The Bug Coffee, oferecemos muito mais do que cafés incríveis e quitutes irresistíveis — somos um espaço pensado para quem busca produtividade com aconchego. Nosso ambiente de coworking foi projetado para atender profissionais, estudantes, freelancers e empreendedores que desejam unir foco, conforto e criatividade em um só lugar. Contamos com 8 salas exclusivas de coworking, equipadas com Wi-Fi de alta velocidade, iluminação agradável, mesas ergonômicas e isolamento acústico, proporcionando tranquilidade para quem precisa se concentrar.
+          <br><br>
+          Além disso, você pode contar com áreas comuns integradas ao nosso café, ideais para networking, pausas estratégicas e novas conexões. Aqui, cada detalhe foi pensado para que você possa transformar seu dia de trabalho em uma experiência mais leve, produtiva e inspiradora. Não importa se é para uma reunião rápida, uma maratona de estudos ou um projeto importante — temos o espaço ideal para você. Faça sua reserva online de forma rápida e prática, e descubra como é trabalhar com sabor e estilo na The Bug Coffee. Esperamos por você!
+        </p>
+        <a href="reservas.html" class="btn-reservar">Reserve sua Sala</a>
+      </div>
     </section>
 
     <!-- Salas Básicas -->
@@ -51,19 +55,19 @@
       <!-- Salas Premium -->
       <div class="card">
         <h3>4 Salas Premium</h3>
-        <p>Modelo auditório para workshops, aulas e apresentações maiores. Capacidade para até 17 pessoas.</p>
+        <p>Modelo auditório para workshops, aulas e apresentações maiores. Capacidade para até 20 pessoas.</p>
         <img src="img/coworkingpremium.jpg" alt="Sala premium" class="salas" >
       </div>
     </section>
 
     <!-- Comodidades -->
-    <section id="comodidades">
+    <section id="comodidades" class="card"> 
       <h3>O que todas as salas oferecem:</h3>
       <ul>
         <li>Ar-condicionado com controle individual</li>
-        <li>TV de 49”</li>
-        <li>Tomadas 110V de piso e parede</li>
-        <li>Internet Wi-Fi (100mb)</li>
+        <li>TV de 49 Polegadas </li>
+        <li>Tomadas 110V/220V de piso e parede</li>
+        <li>Internet Wi-Fi (800GB)</li>
         <li>Quadro de vidro com canetas</li>
         <li>Pranchetas e blocos de anotações</li>
         <li>Canetas, réguas e lápis</li>

@@ -4,23 +4,20 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Reservas | The Bug Coffee</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-  <link rel="stylesheet" tyoe="text/css" href="style/stylesite.css">
-
-  <link rel="icon" type="imagem/png" href="img/logos/bugs.png"/>
-
+  <title>Horários e Reservas | The Bug Coffee</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="js/script.js" defer></script>
+   <link rel="icon" type="imagem/png" href="img/logos/bugs.png"/>
 </head>
 <body>
 
-  <!-- Cabeçalho fixo -->
-   <header> <!---Menu de navegação fixo-->
+  <header>
     <div class="navegar" id="topo">
       <a href="index.html">
-        <img src="img/logos/Logotbcpng.png"Logo da empresa" class="logofoto">
+       <img src="img/logos/Logotbcpng.png" alt="Logo da empresa" class="logofoto">
         <h2 class="logo">The Bug Coffee</h2>
-      </a> <!--Logo nome-->
-      <nav> <!--Menu de páginas-->
+      </a>
+      <nav>
         <a href="index.html">HOME</a>
         <a href="coworking.html">COWORKING</a>
         <a href="cardapio.html">CARDÁPIO</a>
@@ -28,42 +25,120 @@
         <a href="sobre.html">SOBRE NÓS</a>
         <a href="reservas.html">RESERVAS</a>
         <a href="facaparte.html">FAÇA PARTE</a>
-        <a href="equipe.html"> NOSSO TIME</a>
-        
+        <a href="equipe.html">NOSSO TIME</a>
       </nav>
     </div>
   </header>
 
   <main class="container">
-    <h2>Precisa de Ajuda?</h2>
-    <form id="form-contato">
-      <label for="nome">Nome:</label>
-      <input type="text" id="nome" name="nome" required />
 
-      <label for="email">Email:</label>
-      <input type="email" id="email" name="email" required />
+    <section class="horarios-box">
+      <h2>Horários de Atendimento</h2>
+      <div class="horarios-linha">
+        <div><strong>Segunda a Sexta:</strong> 08:00 – 20:00</div>
+        <div><strong>Sábado:</strong> 09:00 – 18:00</div>
+        <div><strong>Domingo:</strong> Fechado</div>
+      </div>
+    </section>
 
-      <label for="telefone">Telefone:</label>
-      <input type="tel" id="telefone" name="telefone" />
+    <h2>Conheça Nossas Salas:</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="img/salabasica.png" alt="Sala Básica">
+        <h3>Sala Básica</h3>
+        <p>Ideal para reuniões pequenas, oficinas e trabalhos individuais.</p>
+        <p><strong>Duração:</strong> 2 horas</p>
+        <p><strong>Valor:</strong> R$ 50,00</p>
+      </div>
+      <div class="card">
+        <img src="img/salapremium.png" alt="Sala Premium">
+        <h3>Sala Premium</h3>
+        <p>Perfeita para apresentações, workshops e reuniões maiores.</p>
+        <p><strong>Duração:</strong> 2 horas</p>
+        <p><strong>Valor:</strong> R$ 120,00</p>
+      </div>
+    </div>
 
-      <label for="assunto">Assunto:</label>
-      <input type="text" id="assunto" name="assunto" />
+    <section class="reserva-stepbox">
+      <h2>Faça sua Reserva</h2>
+      <form id="form-step-reserva">
+        <details class="step" open>
+          <summary>📅 Dia da Reserva</summary>
+          <select id="select-data" name="data" required>
+            <option value="">Selecione</option>
+          </select>
+        </details>
 
-      <label for="mensagem">Sua Mensagem:</label>
-      <textarea id="mensagem" name="mensagem" rows="5" required></textarea>
+        <details class="step">
+          <summary>📍 Sala / Ambiente</summary>
+          <select name="sala" required>
+            <option value="">Selecione</option>
+            <option>Sala Básica</option>
+            <option>Sala Premium</option>
+          </select>
+        </details>
 
-      <button type="submit">Enviar</button>
-    </form>
+        <details class="step">
+          <summary>👥 Quantidade de Pessoas</summary>
+          <select name="pessoas" required>
+            <option value="">Selecione</option>
+            <option>1 pessoa</option>
+            <option>2 pessoas</option>
+            <option>3 pessoas</option>
+            <option>4 pessoas</option>
+            <option>5 pessoas</option>
+            <option>6 pessoas</option>
+            <option>7 pessoas</option>
+            <option>8 pessoas</option>
+            <option>9 pessoas</option>
+            <option>10 pessoas</option>
+            <option>11 pessoas</option>
+            <option>12 pessoas</option>
+            <option>13 pessoas</option>
+            <option>14 pessoas</option>
+            <option>15 pessoas</option>
+            <option>16 pessoas</option>
+            <option>17 pessoas</option>
+            <option>18 pessoas</option>
+            <option>19 pessoas</option>
+            <option>20 pessoas</option>
+          </select>
+        </details>
+
+        <details class="step">
+          <summary>⏰ Horário</summary>
+          <select name="hora" required>
+            <option value="">Selecione</option>
+            <option>08:00</option>
+            <option>09:00</option>
+            <option>10:00</option>
+            <option>11:00</option>
+            <option>12:00</option>
+            <option>13:00</option>
+            <option>14:00</option>
+            <option>15:00</option>
+            <option>16:00</option>
+            <option>17:00</option>
+            <option>18:00</option>
+            <option>19:00</option>
+          </select>
+        </details>
+
+        <details class="step">
+          <summary>✍️ Observações (opcional)</summary>
+          <input type="text" name="observacao" placeholder="Ex: Aniversário, evento especial...">
+        </details>
+
+        <button type="submit">Continuar</button>
+      </form>
+    </section>
+
   </main>
 
-  <!-- Rodapé -->
   <footer>
     <h2>The Bug Coffee</h2>
     <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>
   </footer>
-
-  <!-- Link para script.js -->
-  <script src="script.js"></script>
 
 </body>
 </html>
