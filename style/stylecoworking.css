@@ -1,26 +1,27 @@
 
-
+/*Coworking*/
+.salas {
+  width:100%; 
+  border-radius: 10px;
+  margin-top: 10px;
+}
  
 .coworking-banner {
   position: relative;
-  background-image: url('img/coworking-fundo.png'); 
+  background-image: url('../img/coworking-fundo.png'); 
   background-position: center;
   background-attachment: fixed;
-  height: 800px;
+  height: 550px;
   display: flex;
   align-items: center;
   justify-content: center;
   text-align: center;
   color: #fff;
-  padding: 40px;
   border-radius: 20px; 
-  overflow: hidden;
-  margin: 20px auto;
-  width: 95%;
 }
 
 .coworking-texto {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.85);
   padding: 30px;
   border-radius: 12px;
   max-width: 80%;
@@ -44,7 +45,7 @@
   background-color: #e0c097;
   color: #3e2723;
   padding: 12px 24px;
-  border-radius: 30px;
+  border-radius: 25px;
   font-weight: bold;
   text-decoration: none;
   transition: background-color 0.3s ease;
@@ -56,26 +57,42 @@
 
 /* nossas comodidades */ 
 
-.card {
-  background-color: #4e342e; /* marrom escuro */
-  color: #fff;
+.card2 {
+  margin-top: 40px;
   padding: 25px;
   border-radius: 15px;
-  margin: 40px auto;
-  max-width: 800px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+  background-image: url('../img/coworking-fundo.png'); 
+  background-position: center;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  text-align: center;
 }
 
-.card h3 {
-  margin-top: 0;
-  font-size: 1.4em;
+
+.card-cont{
+  background-color: rgba(0, 0, 0, 0.85);
+  padding: 30px;
+  border-radius: 12px;
+  font-size: 1.1em;
+  line-height: 1.6em;
+  opacity: 0;
+  transform: translateY(20px);
+  animation: aparecer 1.2s ease-out forwards;
 }
 
-.card ul {
+.card2 h3 {
+  font-size: 2em;
+}
+
+.card2 ul {
   padding-left: 20px;
   margin-top: 10px;
 }
 
-.card ul li {
+.card2 ul li {
   margin-bottom: 8px;
+  list-style-type: none;
 }

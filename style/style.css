@@ -73,9 +73,9 @@ header nav a:hover{
   color: var(--celery);
 }
 
-/* Estrutura principal */
+/* Estrutura principal - Home */
 .destaque-principal {
-  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('img/fundo.jpg');
+  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('../img/fundo.jpg');
   height: 600px; 
   background-size: cover;
   background-position: center;
@@ -104,6 +104,7 @@ header nav a:hover{
   justify-content: center;
   margin-top: 20px;
 }
+
 .oferecemos h2{
   font-size: 42px;
   text-align: center;
@@ -127,13 +128,17 @@ header nav a:hover{
   border-radius: 8px;
   margin-bottom: 10px;
   color: var(--gelo);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
 }
+
 
 .cardapio{
   padding-top: 2em;
   color: var(--gelo);
   align-items: center;
-  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('img/cafeconexoes.jpg');
+  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('../img/cafeconexoes.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
@@ -153,7 +158,7 @@ header nav a:hover{
   background-color: #6d4c41;
   color: #fff;
   text-decoration: none;
-  border-radius: 6px;
+  border-radius: 25px;
 }
 
 td a:hover{
@@ -165,28 +170,54 @@ section a:hover{
 }
 
 .conexoes{
-  justify-content: space-between;
-  font-size: 30px;
-  margin: 6em 2em;
+  margin: 20px;
+  justify-content: center;
+  background-color: #3f2c28;
+  border-radius: 16px;
+  color: var(--gelo);
+
 }
 
-.conexoes h2{
+.conex{
+  align-items: center;
+  font-size: 20px;
   text-align: left;
+  margin-left: 1em;
+  padding: 15px;
+}
+
+.conex a{
+  margin-top: 5px;
 }
 
 .cont{
   display: flex;
   align-items: center;
-  gap: 30px;
+  gap: 10px;
+}
+
+.cont p{
+  margin-right: 30px;
 }
 
 .cont img{
-  height: auto;
-  max-width: 30%;
+  max-width: 20%;
+  margin-right: 15px;
   border-radius: 12px; /* Opcional: cantos arredondados */
-  background-color:  #3f2c28;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+  border-width: 2px;
+  border-style: solid;
+  border-color: #fff;
+}
 
+
+/* Descubra */
+.descubra-banner {
+  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('../img/cofe.jpg'); 
+  height: 400px; 
+  background-size: cover;
+  background-position: center;
+  display: flex;
 }
 
 
@@ -202,7 +233,7 @@ section a:hover{
 }
 
 .sobre{
-  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('img/thebug4.jpg');
+  background: linear-gradient(rgb(0,0,0,.50), rgb(0,0,0,.50)100%), url('../img/thebug4.jpg');
   height: 400px; 
   background-size: cover;
   background-position: center;
@@ -215,16 +246,6 @@ section a:hover{
   margin: 0 auto;
   padding: 6em 6em;
 }
-
-/*Coworking*/
-.salas {
-  width:100%; 
-  border-radius: 10px;
-  margin-top: 10px;
-}
-
-
-
 
 footer {
   background-color:  #3f2c28;
@@ -259,114 +280,51 @@ footer h2 {
   }
 }
 
-/* ==== FORMULÁRIO RESERVAS ==== */
-#form-reserva {
-  background: #fffefb;
-  border: 1px solid #e0c097;
-  border-radius: 16px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
-  padding: 40px;
-  max-width: 700px;
-  margin: 40px auto;
-  color: #3f2c28;
-   cursor: pointer;
-}
-
-#form-reserva label {
-  display: block;
-  margin-bottom: 8px;
-  font-weight: 600;
-  font-size: 15px;
-  color: #3f2c28;
-}
-
-#form-reserva input,
-#form-reserva select,
-#form-reserva textarea {
-  width: 100%;
-  padding: 12px 14px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-  border: 1px solid #ccc;
-  font-size: 14px;
-  background-color: #fdf9f6;
-  transition: border-color 0.3s ease, box-shadow 0.3s ease;
-  cursor: pointer;
-}
-
-#form-reserva input:focus,
-#form-reserva select:focus,
-#form-reserva textarea:focus {
-  border-color: #7c4514;
-  box-shadow: 0 0 5px rgba(124, 69, 20, 0.25);
-  outline: none;
-  cursor: pointer;
-}
-
-#form-reserva button {
-  background-color: #7c4514;
-  color: #fff;
-  padding: 14px 22px;
-  border: none;
-  border-radius: 10px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background-color 0.3s ease, transform 0.2s;
-  width: 100%;
-}
-
-#form-reserva button:hover {
-  background-color: #3f2c28;
-  transform: translateY(-2px);
-   cursor: pointer;
+.horario{
+  display: flex;
+  align-items: center; 
+  justify-content: center;/* Alinha verticalmente */
+  width: 95%
 }
 /* ==== HORÁRIOS ==== */
 .horarios-box {
   background-color: #3f2c28;
   color: #fff;
   text-align: center;
-  padding: 60px 20px;
+  padding: 60px 40px;
   border-radius: 16px;
-  margin: 50px auto;
-  max-width: 800px;
+  margin: 55px 60px;
+  width: 700px;
+  justify-content: center;
   box-shadow: 0 10px 30px rgba(0,0,0,0.15);
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .horarios-box h2 {
-  font-size: 36px;
+  font-size: 40px;
   margin-bottom: 30px;
   color: #e0c097;
-   cursor: pointer;
+  cursor: pointer;
 }
 
-.horarios-linha {
-  display: flex;
-  flex-direction: column;
-  gap: 14px;
-  font-size: 18px;
-  line-height: 1.6
-}
 
 .horarios-linha div {
   background-color: rgba(255, 255, 255, 0.05);
-  padding: 12px 20px;
+  font-size: 22px;
+  padding: 14px 20px;
   border-radius: 8px;
-  margin: 0 auto;
-  max-width: 500px;
   cursor: pointer;
 }
 
 /* ==== FORMULÁRIO POR ETAPAS ESTILO WIDGET ==== */
 .reserva-stepbox {
   background-color: #fffefb;
-  padding: 40px 30px;
-  max-width: 600px;
-  margin: 60px auto;
-  border-radius: 16px;
+  padding: 40px 40px;
+  margin: 55px 10px;
+  width: 600px;
+  border-radius: 25px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .reserva-stepbox h2 {
@@ -415,7 +373,7 @@ footer h2 {
   margin-top: 20px;
   padding: 14px;
   width: 100%;
-  background-color: #7c4514;
+  background-color: #3f2c28;
   color: white;
   border: none;
   border-radius: 10px;
@@ -426,5 +384,9 @@ footer h2 {
 }
 
 .reserva-stepbox button:hover {
-  background-color: #3f2c28;
+  background-color:var(--terra);
+}
+
+.container h2{
+  text-align: center;
 }

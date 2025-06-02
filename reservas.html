@@ -5,12 +5,11 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Horários e Reservas | The Bug Coffee</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style/style.css">
   <script src="js/script.js" defer></script>
    <link rel="icon" type="imagem/png" href="img/logos/bugs.png"/>
 </head>
 <body>
-
   <header>
     <div class="navegar" id="topo">
       <a href="index.html">
@@ -19,45 +18,26 @@
       </a>
       <nav>
         <a href="index.html">HOME</a>
-        <a href="coworking.html">COWORKING</a>
-        <a href="cardapio.html">CARDÁPIO</a>
         <a href="descubra.html">DESCUBRA</a>
+        <a href="cardapio.html">CARDÁPIO</a>
+        <a href="coworking.html">COWORKING</a>
         <a href="sobre.html">SOBRE NÓS</a>
         <a href="reservas.html">RESERVAS</a>
+        <a href="equipe.html"> NOSSO TIME</a>
         <a href="facaparte.html">FAÇA PARTE</a>
-        <a href="equipe.html">NOSSO TIME</a>
       </nav>
     </div>
   </header>
 
-  <main class="container">
-
+  <main class="horario">
     <section class="horarios-box">
-      <h2>Horários de Atendimento</h2>
+      <h2>Horários de  <br> Atendimento</h2>
       <div class="horarios-linha">
-        <div><strong>Segunda a Sexta:</strong> 08:00 – 20:00</div>
-        <div><strong>Sábado:</strong> 09:00 – 18:00</div>
-        <div><strong>Domingo:</strong> Fechado</div>
+        <div><strong>Segunda a Sexta:</strong><br> 08:00 – 20:00</div><br>
+        <div><strong>Sábado:</strong><br> 09:00 – 18:00</div><br>
+        <div><strong>Domingo:</strong> <br>Fechado</div>
       </div>
     </section>
-
-    <h2>Conheça Nossas Salas:</h2>
-    <div class="card-container">
-      <div class="card">
-        <img src="img/salabasica.png" alt="Sala Básica">
-        <h3>Sala Básica</h3>
-        <p>Ideal para reuniões pequenas, oficinas e trabalhos individuais.</p>
-        <p><strong>Duração:</strong> 2 horas</p>
-        <p><strong>Valor:</strong> R$ 50,00</p>
-      </div>
-      <div class="card">
-        <img src="img/salapremium.png" alt="Sala Premium">
-        <h3>Sala Premium</h3>
-        <p>Perfeita para apresentações, workshops e reuniões maiores.</p>
-        <p><strong>Duração:</strong> 2 horas</p>
-        <p><strong>Valor:</strong> R$ 120,00</p>
-      </div>
-    </div>
 
     <section class="reserva-stepbox">
       <h2>Faça sua Reserva</h2>
@@ -82,26 +62,11 @@
           <summary>👥 Quantidade de Pessoas</summary>
           <select name="pessoas" required>
             <option value="">Selecione</option>
-            <option>1 pessoa</option>
-            <option>2 pessoas</option>
-            <option>3 pessoas</option>
-            <option>4 pessoas</option>
-            <option>5 pessoas</option>
-            <option>6 pessoas</option>
-            <option>7 pessoas</option>
-            <option>8 pessoas</option>
-            <option>9 pessoas</option>
-            <option>10 pessoas</option>
-            <option>11 pessoas</option>
-            <option>12 pessoas</option>
-            <option>13 pessoas</option>
-            <option>14 pessoas</option>
-            <option>15 pessoas</option>
-            <option>16 pessoas</option>
-            <option>17 pessoas</option>
-            <option>18 pessoas</option>
-            <option>19 pessoas</option>
-            <option>20 pessoas</option>
+            <option>1 à 3 pessoas</option>
+            <option>4 à 7 pessoas</option>
+            <option>8 à 11 pessoas</option>
+            <option>12 à 15 pessoas</option>
+            <option>16 à 20 pessoas</option> 
           </select>
         </details>
 
@@ -132,9 +97,29 @@
         <button type="submit">Continuar</button>
       </form>
     </section>
-
   </main>
 
+  <section class="container">
+    <h2>CONHEÇA NOSSAS OPÇÕES:</h2>
+    <div class="card-container">
+      <div class="card">
+        <img src="img/salabasica.png" alt="Sala Básica">
+        <h3>Sala Básica</h3>
+        <p>Ideal para reuniões pequenas, oficinas e trabalhos individuais.</p>
+        <p><strong>Duração:</strong> 2 horas</p>
+        <p><strong>Valor:</strong> R$ 50,00</p>
+      </div>
+      <div class="card">
+        <img src="img/salapremium.png" alt="Sala Premium">
+        <h3>Sala Premium</h3>
+        <p>Perfeita para apresentações, workshops e reuniões maiores.</p>
+        <p><strong>Duração:</strong> 2 horas</p>
+        <p><strong>Valor:</strong> R$ 120,00</p>
+      </div>
+    </div>
+  </section>
+
+  
   <footer>
     <h2>The Bug Coffee</h2>
     <p>&copy; 2025 The Bug Coffee | Todos os direitos reservados</p>

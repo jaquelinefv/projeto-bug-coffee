@@ -129,7 +129,7 @@ const cardapio = [
    {
     categoria: "Salgados",
     nome: "Croissant de Queijo Brie e Mel",
-    descricao: "Massa folhada francesa com recheio cremoso e um toque doce — sofisticação em cada mordida.",
+    descricao: "Massa folhada francesa com recheio cremoso e um toque doce.",
     preco: 6.50
   },
    {
@@ -249,7 +249,7 @@ function carregarCardapio() {
 
   cardapio.forEach(item => {
     const itemDiv = document.createElement('div');
-    itemDiv.classList.add('item');
+    itemDiv.classList.add('menu-item');
 
     itemDiv.innerHTML = `
       <h4>${item.nome}</h4>

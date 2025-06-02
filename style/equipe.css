@@ -1,0 +1,144 @@
+.equipe{
+  background-color: #3f2c28;
+}
+
+
+.equipe-section {
+  background-color: #e0c097;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.equipe-section h2 {
+  font-size: 36px;
+  margin-bottom: 40px;
+  color: #3f2c28;
+}
+
+.equipe-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 40px;
+}
+
+.equipe-card {
+  align-items: center;
+  width: 200px;
+  background-color: #3f2c28;
+  border-radius: 16px;
+  padding-top: 2em;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+  transition: transform 0.3s;
+}
+
+.equipe-card:hover {
+  transform: scale(1.03);
+}
+
+.equipe-card img {
+  width: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid #e0c097;
+}
+
+.equipe-card h3 {
+  font-size: 18px;
+  color: #fff8e6;
+  margin: 6px;
+}
+
+.equipe-card p {
+  font-size: 14px;
+  color: #e0c097;
+}
+
+@media (max-width: 600px) {
+  .equipe-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+.social-icons {
+  margin-top: 10px;
+}
+
+.social-icons a {
+  text-decoration: none;
+  margin: 0 5px;
+  font-size: 20px;
+  color: #7c4514;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #3f2c28;
+}
+/* ==== ÍCONES SOCIAIS EM SVG ==== */
+
+
+
+
+.mascote-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mascote-img {
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.mascote-legenda {
+  font-size: 16px;
+  color: #3f2c28;
+}
+
+.equipe-container:has(.equipe-card) {
+  justify-content: center;
+}
+
+/* Destaque visual para o card do mascote */
+.equipe-container:has(.equipe-card img[src*="mascote-bug.png"]) .equipe-card {
+  background-color: #fff8e6;
+  border: 2px solid #e0c097;
+  box-shadow: 0 8px 20px rgba(124, 69, 20, 0.15);
+}
+
+.mascote-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mascote-img {
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.mascote-legenda {
+  font-size: 16px;
+  color: #3f2c28;
+}
+
+.mascote-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.mascote-img {
+  max-width: 220px;
+  height: auto;
+  display: block;
+  margin: 0 auto 10px;
+}
+
+.mascote-legenda {
+  font-size: 16px;
+  color: #3f2c28;
+}
