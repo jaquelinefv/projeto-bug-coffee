@@ -4,10 +4,10 @@
 Site de um café coworking desenvolvido para fins acadêmicos utilizando tecnologias HTML5, CSS e JavaScript.
 
 ## 🥇 Integrantes da Equipe
-* Jaqueline Vieira de Freitas - 425101645  
+* Helder Rocha de Lima - 425108037  
+* Jaqueline Vieira de Freitas - 425101645 
 * Lucas Do Vale De Jesus - 425107460   
 * Vinicius Rosanti Vallone - 425102322  
-* Helder Rocha de Lima - 425108037  
 
 ## 🎯 Objetivo
 Mostrar como é o espaço do café temático para profissionais que procuram um lugar de conforto para trabalhar e realizar reservas.
@@ -42,25 +42,26 @@ Mostrar como é o espaço do café temático para profissionais que procuram um 
 ### 📌 Landing Page
 Página inicial com apresentação geral do café e botões de navegação.
 
-### 📍 Sobre Nós
-Apresentação da história, missão e visão do The Bug Coffee.
-
-### 💼 Coworking
-Demonstração dos ambientes disponíveis para trabalho e estudo.
+### 🔍 Descubra
+Sessão com destaques sobre o espaço e diferenciais.
 
 ### 📖 Cardápio
 Exibição dos itens oferecidos (cafés, lanches, etc.), com imagens e descrição.
 
-### 🔍 Descubra
-Sessão com destaques sobre o espaço e diferenciais.
+### 💼 Coworking
+Demonstração dos ambientes disponíveis para trabalho e estudo.
 
-### ⏰ Reservas & Horarios
+### 📍 Sobre Nós
+Apresentação da história, missão e visão do The Bug Coffee.
+
+### ⏰ Reservas - Horario de Funcionamento
 Faça sua reserva e horarios de funcionamentos.
 
-### ✉️ Trabalhe Conosco
+### 👨‍🍳👨‍🍳👨‍🍳👨‍🍳 Nosso Time - Equipe do projeto
+Conhecendo nossa equipe.
+
+### ✉️ Faça Parte - Trabalhe Conosco
 Informações para envio de currículo e contato via e-mail ou telefone.
 
-### 👨‍🍳👨‍🍳👨‍🍳👨‍🍳 Equipe do projeto
- Conhecendo nossa equipe.
 
 ## 🎲 Estrutura de Dados
