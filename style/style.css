@@ -105,11 +105,6 @@ header nav a:hover{
   margin-top: 20px;
 }
 
-.oferecemos h2{
-  font-size: 42px;
-  text-align: center;
-}
-
 .card {
   background-color:  #3f2c28;
   border-radius: 12px;
@@ -307,13 +302,20 @@ footer h2 {
   cursor: pointer;
 }
 
-
 .horarios-linha div {
   background-color: rgba(255, 255, 255, 0.05);
   font-size: 22px;
   padding: 14px 20px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.horafunc:hover{
+  background-color:var(--marrom-escuro);
+}
+
+.container h2{
+  font-size: 42px;;
 }
 
 /* ==== FORMULÁRIO POR ETAPAS ESTILO WIDGET ==== */
@@ -349,12 +351,12 @@ footer h2 {
   background-color: #f9f5ef;
   color: #3f2c28;
   list-style: none;
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .step[open] summary {
   background-color: #e0c097;
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .step input,
@@ -366,7 +368,7 @@ footer h2 {
   border-radius: 8px;
   border: 1px solid #ccc;
   background-color: #fffefb;
-   cursor: pointer;
+  cursor: pointer;
 }
 
 .reserva-stepbox button {
