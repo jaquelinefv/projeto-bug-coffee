@@ -268,6 +268,7 @@ function carregarCardapio() {
 }
 
  // script para atualizar a data das reservas aultomaticamente
+
 document.addEventListener("DOMContentLoaded", function () {
   const selectData = document.getElementById("select-data");
   if (selectData) {
@@ -291,5 +292,24 @@ document.addEventListener("DOMContentLoaded", function () {
 
       selectData.appendChild(option);
     }
+  }
+});
+
+// mensagem apos reserva
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.getElementById("form-step-reserva");
+  const msg = document.getElementById("mensagem-reserva");
+
+  if (form && msg) {
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      msg.style.display = "block";
+      form.reset();
+
+      setTimeout(() => {
+        msg.style.display = "none";
+      }, 5000);
+    });
   }
 });

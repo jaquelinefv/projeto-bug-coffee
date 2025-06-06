@@ -24,9 +24,16 @@ body {
   background-color: #e7cba7;
   color: #333;
   line-height: 1.6;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Cabeçalho fixo */
+main {
+  flex: 1;
+}
+
+/* Cabeçalho */
 header .navegar{
   display: flex;
   flex-direction: row;
@@ -198,7 +205,7 @@ section a:hover{
 .cont img{
   max-width: 20%;
   margin-right: 15px;
-  border-radius: 12px; /* Opcional: cantos arredondados */
+  border-radius: 12px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
   border-width: 2px;
   border-style: solid;
@@ -278,7 +285,7 @@ footer h2 {
 .horario{
   display: flex;
   align-items: center; 
-  justify-content: center;/* Alinha verticalmente */
+  justify-content: center;
   width: 95%
 }
 /* ==== HORÁRIOS ==== */
@@ -318,7 +325,7 @@ footer h2 {
   font-size: 42px;;
 }
 
-/* ==== FORMULÁRIO POR ETAPAS ESTILO WIDGET ==== */
+/* ==== FORMULÁRIO POR ETAPAS ==== */
 .reserva-stepbox {
   background-color: #fffefb;
   padding: 40px 40px;
@@ -391,4 +398,27 @@ footer h2 {
 
 .container h2{
   text-align: center;
+} 
+
+ .mensagem-reserva {
+  display: none;
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+  /* mascote na pagina faça parte */
+.mascote-footer {
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.mascote-footer img {
+  width: 10%;      
+  height: auto;
+  max-width: 25%;
+  display: block;
+  margin: 0 auto;
 }

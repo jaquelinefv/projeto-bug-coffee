@@ -41,7 +41,8 @@
 
     <section class="reserva-stepbox">
       <h2>Faça sua Reserva</h2>
-      <form id="form-step-reserva">
+      <form action="https://formsubmit.co/thebugcoffe@gmail.com" method="POST">
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html">
         <details class="step" open>
           <summary>📅 Dia da Reserva</summary>
           <select id="select-data" name="data" required>
@@ -95,6 +96,9 @@
         </details>
 
         <button type="submit">Continuar</button>
+          <p id="mensagem-reserva" class="mensagem-reserva">
+             ✅ Sua reserva foi registrada com sucesso!
+          </p>
       </form>
     </section>
   </main>
