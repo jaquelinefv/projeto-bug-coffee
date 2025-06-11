@@ -21,20 +21,26 @@ Mostrar como é o espaço do café temático para profissionais que procuram um 
 
 ## 🗂️ Estrutura do Projeto
 ```
-/the-bug-coffee
-│
-├── index.html              # Landing Page
-├── sobre.html              # Sobre Nós
-├── coworking.html          # Página sobre os espaços de coworking
-├── cardapio.html           # Menu de produtos
-├── descubra.html           # Página de destaques
-├── reservas.html           # Reservas & horarios
-├── trabalheconosco.html    # Informações de recrutamento
-├── equipe.html             # Equipe do projeto
-├── style.css               # Estilos principais
-└── /assets
-    ├── /img                # Imagens do projeto
-    └── /icons              # Ícones (se aplicável)
+├── index.html           # Página inicial (Landing Page)
+├── sobre.html           # Página "Sobre Nós"
+├── coworking.html       # Espaços coworking
+├── cardapio.html        # Cardápio com bebidas, salgados e doces
+├── descubra.html        # Destaques do café
+├── reservas.html        # Formulário de reservas e horários
+├── facaparte.html       # Trabalhe conosco
+├── obrigado.html        # Página de confirmação de reserva
+├── equipe.html          # Página da equipe
+├── README.md            # Documentação do projeto
+├── js/
+│ └── script.js          # Scripts principais
+├── img/                 # Imagens do site
+└── style/
+├── style.css            # Estilo principal
+├── stylesite.css        # Estilo geral
+├── stylesobre.css       # Página sobre
+├── stylecoworking.css   # Página coworking
+├── equipe.css           # Página da equipe
+└── obrigado.css         # Página de agradecimento
 ```
 
 ## ⭐ Funcionalidades

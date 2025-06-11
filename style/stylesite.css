@@ -39,8 +39,9 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-
+    border-radius: 18px;
 }
+
 .menu-section {
     margin-bottom: 40px;
     max-width: 900px;
