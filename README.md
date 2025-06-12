@@ -1,6 +1,8 @@
 
 # ☕The Bug Coffee☕
 
+LINK - https://youtu.be/AZ9Ms3OyBxQ
+
 Site de um café coworking desenvolvido para fins acadêmicos utilizando tecnologias HTML5, CSS e JavaScript.
 
 ## 🥇 Integrantes da Equipe
